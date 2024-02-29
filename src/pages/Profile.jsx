@@ -50,7 +50,7 @@ const Profile = () => {
       return
     }
     try {
-      await axios.post("http://localhost:8800/addPontos", { pontos: parseInt(val) });
+      await axios.post("https://api-project-future.vercel.app/addPontos", { pontos: parseInt(val) });
       updateChangelog(`${parseInt(val)} Pontos | ${reason}`);
       setModal(!modal);
       refreshPage()
@@ -69,7 +69,7 @@ const Profile = () => {
       return
     }
     try {
-      await axios.post("http://localhost:8800/removePontos", { pontos: parseInt(val) });
+      await axios.post("https://api-project-future.vercel.app/removePontos", { pontos: parseInt(val) });
       updateChangelog(`${parseInt(val)} Pontos  | ${reason}`);
       setModal(!modal);
       refreshPage()
