@@ -9,7 +9,7 @@ const Rank = () => {
 
   const getPontos = async () => {
     try {
-      const res = await axios.get("http://localhost:8800/");
+      const res = await axios.get("https://api-project-future.vercel.app/");
       setRank(res.data[0].pontos);
     } catch (error) {
       toast.error(error);
