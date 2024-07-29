@@ -19,12 +19,12 @@ const App = () => {
                 <tr className="border-b border-[#ffffff1f]">
                     <td><span className="text-[#43bc2e]">+</span> Adicionar</td>
                     <td>1x Hora de estudo</td>
-                    <td>10pts</td>
+                    <td>30pts</td>
                 </tr>
                 <tr className="border-b border-[#ffffff1f]">
                     <td><span className="text-[#43bc2e]">+</span> Adicionar</td>
                     <td>1x Simulado</td>
-                    <td>150pts</td>
+                    <td>300pts</td>
                 </tr>
                 <tr className="border-b border-[#ffffff1f]">
                     <td><span className="text-[#bc2e2e]">-</span> Remover</td>
@@ -34,7 +34,7 @@ const App = () => {
                 <tr>
                     <td><span className="text-[#bc2e2e]">-</span> Remover</td>
                     <td>1x Sair para beber</td>
-                    <td>150pts</td>
+                    <td>200pts</td>
                 </tr>
             </tbody>
         </table>
